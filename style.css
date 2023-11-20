@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+#gridContainer {
+    z-index: 1;
+}
+
+table {
+    background-color: black;
+    border-spacing: 1;
+}
+
+td {
+    border: 1px black;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+span {
+    color: black;
+}
+
+
+td.dead {
+    background-color: black;
+}
+
+td.live {
+    background-color: white;
+}
+
+#overlay {
+    position: absolute;
+    display: block;
+    background-color: white;
+    /* background-origin: unset; */
+    border-radius: 3px;
+    opacity: 50%;
+
+    top: 25%;
+    left: 25%;
+    z-index: 10;
+    /* text-align: center; */
+    
+    } 
+
+h1 {
+    font-size: 10vw;
+    margin: 0 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    /* opacity: 50%; */
+    /* text-align: center;  */
+    color: black;
+}
+
+h2 {
+    font-size: 5vw;
+    margin: 0 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-align: center;  */
+    color: black
+} 
