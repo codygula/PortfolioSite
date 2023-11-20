@@ -12,9 +12,6 @@ var nextGrid = new Array(rows);
 var timer;
 var reproductionTime = 150;
 
-var w = window.innerWidth;
-var h = window.innerHeight; 
-
 console.log(w)
 console.log(h)
 
@@ -61,7 +58,6 @@ function createTable() {
             var cell = document.createElement("td");
             cell.setAttribute("id", i + "_" + j);
             cell.setAttribute("class", "dead");
-            // cell.onclick = cellClickHandler;
             cell.onmouseover = cellClickHandler;
             tr.appendChild(cell);
         }
@@ -98,8 +94,6 @@ function createTable() {
             }
         }
     }
-
-
 
 
 // run the life game

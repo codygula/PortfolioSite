@@ -35,14 +35,11 @@ td.live {
     position: absolute;
     display: block;
     background-color: white;
-    /* background-origin: unset; */
     border-radius: 3px;
     opacity: 50%;
-
     top: 25%;
     left: 25%;
     z-index: 10;
-    /* text-align: center; */
     
     } 
 
@@ -50,8 +47,6 @@ h1 {
     font-size: 10vw;
     margin: 0 0 0 0;
     font-family: 'Courier New', Courier, monospace;
-    /* opacity: 50%; */
-    /* text-align: center;  */
     color: black;
 }
 
@@ -59,6 +54,5 @@ h2 {
     font-size: 5vw;
     margin: 0 0 0 0;
     font-family: 'Courier New', Courier, monospace;
-    /* text-align: center;  */
     color: black
 } 
