@@ -1,8 +1,10 @@
 var w = window.innerWidth;
 var h = window.innerHeight; 
 
-var rows = Math.floor((h/10)-5)
-var cols = Math.floor(w/10)
+
+// Changed to 20 here and in style.css. values of 10 works fine in Chrome on my machine but not in Firefox.
+var rows = Math.floor((h/20))
+var cols = Math.floor(w/20)
 console.log("rows= " + rows)
 console.log("cols= " + cols)
 
@@ -14,6 +16,7 @@ var reproductionTime = 150;
 
 console.log(w)
 console.log(h)
+
 
 
 // Largly stolen, brazenly and without permission, from https://codepen.io/RBSpatz/pen/rLyNLb
